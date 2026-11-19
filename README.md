@@ -1,16 +1,38 @@
-## Hi there 👋
+<div align="center">
 
-<!--
-**godHUBer/godHUBer** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<img src="assets/about-me.svg" width="100%" alt="Fushiwara_codes — Night Drive Observatory: a mountain road under the stars" />
 
-Here are some ideas to get you started:
+**I’m a programmer who loves C, writes more Python, and can talk astronomy for hours.**
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+[![Explore WebSeed](https://img.shields.io/badge/PROJECT-WebSeed-ffc09e?style=for-the-badge&labelColor=152338)](https://github.com/godHUBer/webseed)
+![Hydration: I drink water](https://img.shields.io/badge/STATUS-I_drink_water-addbd7?style=for-the-badge&labelColor=152338)
+
+</div>
+
+## `01 / In the garage`
+
+**[WebSeed](https://github.com/godHUBer/webseed)** started with a question: what if I could open something like Snapseed in a browser? It’s a small photo editor with tools like Curves, cropping, and grainy film. The idea was mine; Codex, Antigravity, and Arena.ai helped me build it.
+
+**First test drive:** Pick a photo with a washed-out sky. Open Curves and pull the bright end of the curve down a little. Compare the sky before and after.
+
+**On the workbench:** I’m making a game for a jam. The idea stays under wraps for now.
+
+## `02 / Under the hood`
+
+![C](https://img.shields.io/badge/C-favorite-ffc09e?style=flat-square&labelColor=152338) ![Python](https://img.shields.io/badge/Python-most_used-addbd7?style=flat-square&labelColor=152338) ![C++](https://img.shields.io/badge/C%2B%2B-certified-c7bce8?style=flat-square&labelColor=152338)
+
+The Windows 11 calculator annoyed me enough to make me want to write my own. That’s how I pick projects: find something that bugs me, then make the fix usable for the next person, too.
+
+I’ve earned certificates in C, C++, and Python from Aptech India. I still call myself a beginner. AI has helped me get an idea running, but when I’m not sure it’s right, I want a teammate I can reason it through with.
+
+## `03 / After hours`
+
+| If you’re into… | Ask me about… |
+| :--- | :--- |
+| Astronomy | Betelgeuse or TRAPPIST-1e. Either one can keep me talking for hours. |
+| Cars & anime | Bunta Fujiwara from *Initial D*. He makes driving look effortless, and he’s the reason for my handle. |
+| Making things by hand | Origami and artwork. When I’m not folding or drawing, I like a game of chess. |
+
+---
+
+<div align="center"><sub>Fushiwara_codes · end of field log</sub></div>

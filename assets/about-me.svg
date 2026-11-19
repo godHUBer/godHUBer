@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 134" role="img" aria-labelledby="title desc">
+  <title id="title">Fushiwara_codes · personal star chart</title>
+  <desc id="desc">A signal travels from C to Betelgeuse to TRAPPIST-1e along a stylized constellation.</desc>
+  <style>
+    .signal { stroke-dasharray: 8 592; animation: scan 6s linear infinite; }
+    @keyframes scan { to { stroke-dashoffset: -600; } }
+    @media (prefers-reduced-motion: reduce) { .signal { animation: none; } }
+  </style>
+  <rect width="640" height="134" rx="15" fill="#101c30"/>
+  <g fill="#adc4dc" font-family="monospace">
+    <text x="24" y="26" font-size="13" letter-spacing="2">FIELD NOTES / PERSONAL STAR CHART</text>
+    <path d="M44 79 L277 56 L517 83" fill="none" stroke="#586e8a"/>
+    <path class="signal" d="M44 79 L277 56 L517 83" pathLength="600" fill="none" stroke="#a8f0f5" stroke-width="3"/>
+    <circle cx="44" cy="79" r="5" fill="#90cbfa"/><circle cx="277" cy="56" r="8" fill="#ffad81"/><circle cx="517" cy="83" r="5" fill="#addbd0"/>
+    <g font-size="18" fill="#f0f5fa"><text x="36" y="114">C</text><text x="228" y="98">Betelgeuse</text><text x="465" y="117">TRAPPIST-1e</text></g>
+  </g>
+</svg>

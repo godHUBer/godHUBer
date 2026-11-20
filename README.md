@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/about-me.svg" width="100%" alt="Fushiwara_codes — Night Drive Observatory: a mountain road under the stars" />
+<img src="assets/about-me.svg" width="100%" alt="Fushiwara_codes — Initial D fan animation of Takumi’s AE86 taking the Mount Akina gutter" />
 
 **I’m a programmer who loves C, writes more Python, and can talk astronomy for hours.**
 

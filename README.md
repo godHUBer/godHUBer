@@ -11,7 +11,7 @@
 
 ## `01 / In the garage`
 
-**[WebSeed](https://github.com/godHUBer/webseed)** started with a question: what if I could open something like Snapseed in a browser? It’s a small photo editor with tools like Curves, cropping, and grainy film. The idea was mine; Codex, Antigravity, and Arena.ai helped me build it.
+**[Scratchpad](https://github.com/godHUBer/Scratchpad)** started with a question: what if I could open something like Whiteboard but free and opensource, supporting upto 50k people together. The idea was mine and Arena.ai helped me build it.
 
 **First test drive:** Pick a photo with a washed-out sky. Open Curves and pull the bright end of the curve down a little. Compare the sky before and after.
 

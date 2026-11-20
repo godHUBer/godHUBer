@@ -1,23 +1,84 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" role="img" aria-labelledby="title desc">
-  <title id="title">Fushiwara_codes — Night Drive Observatory</title>
-  <desc id="desc">A winding mountain road leads toward a glowing star above the ridgeline.</desc>
-  <defs>
-    <linearGradient id="sky" x2="1" y2="1" gradientUnits="objectBoundingBox"><stop stop-color="#101b33"/><stop offset="1" stop-color="#343056"/></linearGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#cedbf0" opacity=".07"/></pattern>
-    <radialGradient id="halo"><stop stop-color="#ffab82" stop-opacity=".8"/><stop offset="1" stop-color="#ffab82" stop-opacity="0"/></radialGradient>
-    <clipPath id="frame"><rect width="900" height="320" rx="16"/></clipPath>
-  </defs>
-  <style>@keyframes travel { to { stroke-dashoffset: -120; } } @media (prefers-reduced-motion: no-preference) { .lights { animation: travel 6s linear infinite; } }</style>
-  <g clip-path="url(#frame)">
-    <rect width="900" height="320" fill="url(#sky)"/><rect width="900" height="320" fill="url(#grid)"/>
-    <g fill="#d9e6ef"><circle cx="534" cy="74" r="2"/><circle cx="601" cy="56" r="1.4"/><circle cx="651" cy="114" r="2"/><circle cx="820" cy="39" r="2"/><circle cx="864" cy="84" r="1.4"/></g>
-    <circle cx="729" cy="78" r="46" fill="url(#halo)"/><path d="m729 65 2 10 10 3-10 2-2 11-2-11-11-2 11-3z" fill="#ffe0b6"/>
-    <path d="m415 265 98-70 37 13 100-86 54 41 74-58 122 89v126H415z" fill="#424662"/>
-    <path d="m380 279 152-67 48 10 93-57 52 16 101-47 74 27v159H380z" fill="#262f48"/>
-    <path d="M0 265q300 15 490-21t410-61v137H0z" fill="#152338"/>
-    <path id="road" d="M547 292c15-44 235-54 165-76s-9-28 54-41" fill="none" stroke="#53627a" stroke-width="12"/>
-    <path class="lights" d="M547 292c15-44 235-54 165-76s-9-28 54-41" fill="none" stroke="#ffbe94" stroke-width="2" stroke-dasharray="8 12"/>
-    <g font-family="monospace"><text x="38" y="46" fill="#ffc09e" font-size="14" letter-spacing="3">NIGHT DRIVE OBSERVATORY</text><text x="35" y="151" fill="#f7f3eb" font-size="48" font-weight="bold">Fushiwara_codes</text><text x="39" y="189" fill="#c0dbe2" font-size="20">Programmer / amateur stargazer</text>
-    <rect y="278" width="900" height="42" fill="#101a2b"/><text x="38" y="305" fill="#addbd7" font-size="14" letter-spacing="2">FIELD LOG / @godHUBer</text><text x="861" y="305" text-anchor="end" fill="#ffc09e" font-size="14">AFTER HOURS ↗</text></g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 420" role="img" aria-labelledby="title desc">
+<title id="title">Initial D — The Akina Gutter Run</title>
+<desc id="desc">An original vector recreation of Takumi’s white and black AE86 taking the inside gutter on Mount Akina at night.</desc>
+<defs>
+  <clipPath id="frame"><rect width="1100" height="420" rx="18"/></clipPath>
+  <linearGradient id="sky" x2="0%" y2="100%"><stop stop-color="#09091c"/><stop offset="1" stop-color="#50406a"/></linearGradient>
+  <linearGradient id="road" x2="0%" y2="100%"><stop stop-color="#434256"/><stop offset="1" stop-color="#171821"/></linearGradient>
+  <linearGradient id="paint" x2="0%" y2="100%"><stop stop-color="#fff8e4"/><stop offset="1" stop-color="#b6adbb"/></linearGradient>
+  <linearGradient id="beam"><stop stop-color="#fff1ad" stop-opacity=".78"/><stop offset="1" stop-color="#ffdc9c" stop-opacity="0"/></linearGradient>
+  <linearGradient id="shade"><stop stop-color="#0a0a1b"/><stop offset="1" stop-color="#0a0a1b" stop-opacity="0"/></linearGradient>
+  <pattern id="grate" width="32" height="22" patternUnits="userSpaceOnUse"><path d="M8 3v16m6-16v16m6-16v16" stroke="#171723" stroke-width="3"/></pattern>
+  <path id="pine" d="M0 0l11 24H5l13 19H9l15 19H3v14h-6V62h-21l15-19h-9l13-19h-6z"/>
+  <g id="wheel">
+    <circle r="31" fill="#11111b" stroke="#666170" stroke-width="2"/>
+    <circle r="21" fill="#292937" stroke="#d1c6ca" stroke-width="3"/>
+    <g class="spokes"><path d="M-17 0h34M0-17v34M-12-12l24 24m0-24-24 24" stroke="#d1c6ca" stroke-width="4"/><circle r="6" fill="#474351" stroke="#e2d6d4"/></g>
   </g>
+</defs>
+<style>
+  .spokes { transform-origin:0 0 }
+  .sparks { opacity:0 }
+  @keyframes corner { 0%,100% {transform:translate(-34px,-12px) rotate(-3deg)} 25% {transform:translate(9px,0) rotate(1deg)} 44%,63% {transform:translate(26px,9px) rotate(3deg)} 81% {transform:translate(10px,1px) rotate(0deg)} }
+  @keyframes spin {to {transform:rotate(360deg)}}
+  @keyframes track {to {stroke-dashoffset:160}}
+  @keyframes skid {0%,25%,80%,100% {opacity:0} 42%,59% {opacity:.9}}
+  @media (prefers-reduced-motion:no-preference) {
+    .car {transform-origin:746px 278px;animation:corner 4s ease-in-out infinite}
+    .spokes {animation:spin .48s linear infinite}
+    .speed {animation:track .75s linear infinite}
+    .sparks {animation:skid 4s ease-in-out infinite}
+  }
+</style>
+<g clip-path="url(#frame)">
+  <path d="M0 0h1100v420H0z" fill="url(#sky)"/>
+  <circle cx="891" cy="87" r="51" fill="#ccb9dc" opacity=".09"/>
+  <circle cx="891" cy="87" r="31" fill="#f9e0bb"/>
+  <path d="M0 206 155 115l110 38 109-77 74 56 116-40 74 49 117-65 144 90 89-81 112 86v249H0z" fill="#413552"/>
+  <path d="M0 240 122 174l75 26 144-61 150 70 130-56 79 43 110-63 105 52 111-47 74 41v241H0z" fill="#28243d"/>
+  <g fill="#171727">
+    <use href="#pine" transform="translate(511 142) scale(.93)"/><use href="#pine" transform="translate(560 125) scale(1.2)"/><use href="#pine" transform="translate(613 156) scale(.8)"/><use href="#pine" transform="translate(667 135) scale(1.17)"/><use href="#pine" transform="translate(734 162) scale(.8)"/><use href="#pine" transform="translate(791 130) scale(1.2)"/><use href="#pine" transform="translate(853 159) scale(.9)"/><use href="#pine" transform="translate(915 122) scale(1.44)"/><use href="#pine" transform="translate(981 139) scale(1.15)"/><use href="#pine" transform="translate(1044 115) scale(1.55)"/><use href="#pine" transform="translate(1092 160)"/>
+  </g>
+  <path d="M0 269Q530 202 1100 227v193H0z" fill="url(#road)"/>
+  <path d="M387 241Q757 189 1100 210m-713 39q370-52 713-31" fill="none" stroke="#aaa1ae" stroke-width="3"/>
+  <path d="M488 232v19m115-34v20m118-30v22m125-27v22m117-23v23m118-19v23" stroke="#aaa1ae" stroke-width="4"/>
+  <path class="speed" d="M318 306Q683 228 1100 249" fill="none" stroke="#ddb976" stroke-width="3" stroke-dasharray="55 105"/>
+  <path d="M253 420Q707 308 1100 326v94z" fill="#28232e"/>
+  <path d="M255 415Q730 302 1100 321l0 23Q720 325 344 420z" fill="#69616c"/>
+  <path d="M255 415Q730 302 1100 321l0 23Q720 325 344 420z" fill="url(#grate)"/>
+  <path d="M255 415Q730 302 1100 321" fill="none" stroke="#c3adab" stroke-width="3"/>
+  <path class="speed" d="M453 351q240-49 400-55m-325 78q289-49 572-19" fill="none" stroke="#cdbcc8" stroke-opacity=".32" stroke-dasharray="34 126" stroke-width="2"/>
+  <g class="car">
+    <path d="M564 303q154-38 392-19l26 22q-156 34-433 19z" fill="#10101a" opacity=".76"/>
+    <path d="m948 249 152-23v99l-152-61z" fill="url(#beam)"/>
+    <path d="m556 239 68-14 49-43 133-7 79 51 53 9 24 24-3 35-30 11-359 10-22-16-5-33z" fill="url(#paint)" stroke="#151421" stroke-width="4"/>
+    <path d="m637 224 42-35 119-6 69 42-131 7z" fill="#35324e" stroke="#171625" stroke-width="3"/>
+    <path d="m683 192 43-2-9 37-71-3zm57-3 57-2 58 37-126 4z" fill="#6f647f"/>
+    <path d="m748 191 38-2-31 38-25 1zm55 2 12 7-20 26-15 1z" fill="#bda9bb" opacity=".4"/>
+    <path d="m544 271 106-9 241-12 70 7-2 38-30 12-359 9-22-16z" fill="#242330"/>
+    <path d="m549 276 412-20" stroke="#9a8f9b" stroke-width="2"/>
+    <path d="m716 232-3 36-9 39m151-76 9 25-1 47" fill="none" stroke="#47414e" stroke-width="2"/>
+    <path d="m731 241 16-1m-193 2-18-5 62-13 20 2" fill="none" stroke="#201e2b" stroke-width="5"/>
+    <path d="m549 252 25-4-2 12-26 4z" fill="#fa5a69"/>
+    <path d="m920 234 6-16 20 6 10 17z" fill="#393443" stroke="#181623" stroke-width="2"/>
+    <path d="m931 223 14 4 6 9-18-3z" fill="#fff0b3"/><path d="m942 247 15 3 3 8-17-1z" fill="#fff0b3"/>
+    <text x="740" y="255" font-family="sans-serif" font-size="12" font-weight="bold" fill="#262333" transform="rotate(-3 740 255)">藤原とうふ店（自家用）</text>
+    <path d="M589 303a37 37 0 0 1 74-2m188-8a37 37 0 0 1 74-2" fill="none" stroke="#171622" stroke-width="5"/>
+    <use href="#wheel" x="626" y="302"/><use href="#wheel" x="888" y="293"/>
+  </g>
+  <g class="sparks" fill="none" stroke="#ffbc81" stroke-linecap="round"><path d="m882 330-28 8m20-6-42 3m20 8-22 7m51-15-18 10" stroke-width="2"/><path d="m843 345-17 5m40-25-39 3" opacity=".55"/></g>
+  <path d="M0 0h625v420H0z" fill="url(#shade)"/>
+  <path d="M0 0h1100v12H0zm0 374h1100v46H0z" fill="#0b0a17"/>
+  <path d="M0 374h1100" stroke="#b397af" stroke-opacity=".45"/>
+  <g font-family="ui-monospace, Consolas, monospace">
+    <text x="53" y="77" fill="#ff9b86" font-size="16" letter-spacing="3">INITIAL D / MT. AKINA</text>
+    <text x="49" y="153" fill="#fff4e6" font-family="system-ui,sans-serif" font-weight="900" font-style="italic" font-size="72" letter-spacing="-3">GUTTER</text>
+    <text x="49" y="219" fill="#ffc0a6" font-family="system-ui,sans-serif" font-weight="900" font-style="italic" font-size="72" letter-spacing="-3">RUN</text>
+    <path d="M54 252h52" stroke="#ff9b86" stroke-width="3"/>
+    <text x="53" y="286" fill="#ded4e4" font-size="18" letter-spacing="1">TAKUMI FUJIWARA / AE86</text>
+    <text x="53" y="403" fill="#ded4e4" font-size="15" letter-spacing="1.5">FUSHIWARA_CODES / @godHUBer</text>
+    <text x="1047" y="403" text-anchor="end" fill="#ffbda7" font-size="15" letter-spacing="1.5">FAN ANIMATION</text>
+  </g>
+</g>
+<rect x=".5" y=".5" width="1099" height="419" rx="17.5" fill="none" stroke="#b397af" stroke-opacity=".35"/>
 </svg>

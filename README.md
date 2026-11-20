@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/about-me.svg" width="100%" alt="Fushiwara_codes — Night Drive Observatory: a mountain road under the stars" />
+<img src="assets/about-me.svg" width="100%" alt="Fushiwara_codes — Initial D fan animation of Takumi’s AE86 taking the Mount Akina gutter" />
 
 **I’m a programmer who loves C, writes more Python, and can talk astronomy for hours.**
 
@@ -20,6 +20,10 @@
 ## `02 / Under the hood`
 
 ![C](https://img.shields.io/badge/C-favorite-ffc09e?style=flat-square&labelColor=152338) ![Python](https://img.shields.io/badge/Python-most_used-addbd7?style=flat-square&labelColor=152338) ![C++](https://img.shields.io/badge/C%2B%2B-certified-c7bce8?style=flat-square&labelColor=152338) ![Linux](https://img.shields.io/badge/Linux-distro_hopper-addbd7?style=flat-square&logo=linux&labelColor=152338)
+
+**[Public project stack](https://github.com/godHUBer?tab=repositories)**
+
+![JavaScript](https://img.shields.io/badge/JavaScript-ffc09e?style=flat-square&labelColor=152338) ![TypeScript](https://img.shields.io/badge/TypeScript-addbd7?style=flat-square&labelColor=152338) ![Python](https://img.shields.io/badge/Python-c7bce8?style=flat-square&labelColor=152338) ![HTML](https://img.shields.io/badge/HTML-ffc09e?style=flat-square&labelColor=152338) ![CSS](https://img.shields.io/badge/CSS-addbd7?style=flat-square&labelColor=152338) ![PHP](https://img.shields.io/badge/PHP-c7bce8?style=flat-square&labelColor=152338) ![PLpgSQL](https://img.shields.io/badge/PLpgSQL-ffc09e?style=flat-square&labelColor=152338) ![Shell](https://img.shields.io/badge/Shell-addbd7?style=flat-square&labelColor=152338)
 
 The Windows 11 calculator annoyed me enough to make me want to write my own. That’s how I pick projects: find something that bugs me, then make the fix usable for the next person, too.
 

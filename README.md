@@ -21,6 +21,10 @@
 
 ![C](https://img.shields.io/badge/C-favorite-ffc09e?style=flat-square&labelColor=152338) ![Python](https://img.shields.io/badge/Python-most_used-addbd7?style=flat-square&labelColor=152338) ![C++](https://img.shields.io/badge/C%2B%2B-certified-c7bce8?style=flat-square&labelColor=152338) ![Linux](https://img.shields.io/badge/Linux-distro_hopper-addbd7?style=flat-square&logo=linux&labelColor=152338)
 
+**[Public project stack](https://github.com/godHUBer?tab=repositories)**
+
+![JavaScript](https://img.shields.io/badge/JavaScript-ffc09e?style=flat-square&labelColor=152338&logo=javascript&logoColor=ffffff) ![TypeScript](https://img.shields.io/badge/TypeScript-addbd7?style=flat-square&labelColor=152338&logo=typescript&logoColor=ffffff) ![Python](https://img.shields.io/badge/Python-c7bce8?style=flat-square&labelColor=152338&logo=python&logoColor=ffffff) ![HTML](https://img.shields.io/badge/HTML-ffc09e?style=flat-square&labelColor=152338&logo=html5&logoColor=ffffff) ![CSS](https://img.shields.io/badge/CSS-addbd7?style=flat-square&labelColor=152338&logo=css&logoColor=ffffff) ![PHP](https://img.shields.io/badge/PHP-c7bce8?style=flat-square&labelColor=152338&logo=php&logoColor=ffffff) ![PLpgSQL](https://img.shields.io/badge/PLpgSQL-ffc09e?style=flat-square&labelColor=152338&logo=postgresql&logoColor=ffffff) ![Shell](https://img.shields.io/badge/Shell-addbd7?style=flat-square&labelColor=152338&logo=gnubash&logoColor=ffffff)
+
 The Windows 11 calculator annoyed me enough to make me want to write my own. That’s how I pick projects: find something that bugs me, then make the fix usable for the next person, too.
 
 I’ve earned certificates in C, C++, and Python from Aptech India. I still call myself a beginner. AI has helped me get an idea running, but when I’m not sure it’s right, I want a teammate I can reason it through with.
